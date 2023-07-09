@@ -1,0 +1,30 @@
+{
+    "name": "time-management",
+    "version": "1.0.0",
+    "description": "time table and task management app",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rachamv/Time-Management-App.git#nodetype"
+    },
+    "keywords": [
+        "timer",
+        "daily",
+        "schedule",
+        "task",
+        "management",
+        "nodejs"
+    ],
+    "author": "Adewunmi Oladele",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Rachamv/Time-Management-App/issues"
+    },
+    "homepage": "https://github.com/Rachamv/Time-Management-App/tree/nodetype#readme",
+    "dependencies": {
+        "mysql": "^2.18.1"
+    }
+}

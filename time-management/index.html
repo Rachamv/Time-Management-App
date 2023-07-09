@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Time Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+    </table>
+    
+    <!-- Modal -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Create Note</h2>
+            <form>
+                <label for="modal-title-input">Title:</label>
+                <input type="text" id="modal-title-input" name="title">
+                <br>
+                <label for="modal-content-input">Content:</label>
+                <textarea id="modal-content-input" name="content" rows="4" cols="40"></textarea>
+                <br>
+                <button type="button" id="modal-save">Save</button>
+                <button type="button" id="modal-close">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="timeslot.js"></script>
+</body>
+</html>
